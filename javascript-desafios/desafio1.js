@@ -6,44 +6,52 @@ class Usuario {
         this.mascotas = mascotas = []
     }
 
-    addMascota = ['Perro', 'Gato', "Vaca"]
-    
+    addMascota(mascota) {
+    this.mascotas.push(mascota)
+    } 
 
-    countMascotas() {
-            this.mascotas = this.addMascota
-        return this.mascotas.length
+    countMascota() {
+      return  `${this.nombre} agregó ${this.mascotas.length} mascotas Recientemente`
     }
 
-    addBook = [  
-        {nombre:'El senor de las moscas',
-        autor:'William Golding'},
-
-        {nombre:'Fundacion',
-        autor:'Isaac Asimov'}]
+    addBook(libro, autor) {
+        this.libros.push({libro , autor}) 
+       
+    }
 
     getBookNames() {
-        this.libros = this.addBook
-      return this.libros = [{nombre:'El senor de las moscas'},{nombre:'Fundacion'}]
+        
+        return this.libros.forEach(function(libro) {
+            console.log(`Libro Agregado: ${libro.libro}`);
+        })
+       
     }
     
-
+    getBooks(){
+        
+      return this.getBookNames()
+    }
     getFullName() {
-        return `Bienvenido ${this.nombre}${this.apellido}`
+        return `Bienvenido ${this.nombre} ${this.apellido}`
     }
 }
 
 
 
-const usuario1 = new Usuario ('Daniel',' Olivier')
+const usuario = new Usuario (nombre="Daniel", apellido="Olivier")
+console.log(usuario.getFullName());
+
+const usuario1 = new Usuario (nombre="Guillermo", apellido="Stolk", mascotas=[])
 console.log(usuario1.getFullName());
+usuario1.addMascota('Perro')
+usuario1.addMascota('Gato')
+usuario1.addMascota('Vaca')
+console.log(usuario1.countMascota());
 
-const usuario2 = new Usuario ()
-console.log(usuario2.addMascota);
-const usuario3 = new Usuario ()
-console.log(usuario3.countMascotas());
+const usuario3 = new Usuario (nombre="Angel", apellido="Saldivia", libros=[])
+console.log(usuario3.getFullName());
+usuario3.addBook("Harry Potter", "J. K. Rowling");
+usuario3.addBook("Lord of the Rings", "J. R. R. Tolkien");
+console.log(usuario3.getBooks());
 
-const usuario4 = new Usuario ()
-console.log(usuario4.getBookNames());
-const usuario5 = new Usuario ()
-console.log(usuario5.addBook);
 
