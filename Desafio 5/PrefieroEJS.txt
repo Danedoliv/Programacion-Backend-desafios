@@ -1,0 +1,1 @@
+Me parece que usar EJS es mas sencillo porque vengo de todos los cursos de front end y tiene mas sentido para mi, un poco rara la sintaxis pero manejable.

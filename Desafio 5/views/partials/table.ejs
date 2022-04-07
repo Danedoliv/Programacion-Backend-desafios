@@ -1,0 +1,27 @@
+<table class="table text-center align-items-center mx-auto">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% if (data.length === 0) { %>
+            <tr>
+                <td colspan="3" class="text-uppercase">items not added</td>
+            </tr>
+        <% }else{ %>
+        
+        <% for (let i = 0; i < data.length; i++) { %>
+            <tr>
+                <td><%=data[i].name%></td>
+                <td><%=data[i].price%></td>
+                <div>
+                    <td><img src="<%=data[i].description%>" alt=""></td>
+                </div>
+            </tr>
+        <% } } %>
+
+    </tbody>
+</table>
