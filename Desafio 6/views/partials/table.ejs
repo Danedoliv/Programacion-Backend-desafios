@@ -3,22 +3,22 @@
         <tr>
             <th scope="col">Name</th>
             <th scope="col">Price</th>
-            <th scope="col">Image</th>
+            <th scope="col">URL</th>
         </tr>
     </thead>
     <tbody>
-        <% if (data.length === 0) { %>
+        <% if (containerData.length === 0) { %>
             <tr>
                 <td colspan="3" class="text-uppercase">items not added</td>
             </tr>
         <% }else{ %>
         
-        <% for (let i = 0; i < data.length; i++) { %>
-            <tr>
+        <% for (let i = 0; i < containerData.length; i++) { %>
+            <tr>   
                 <div>
-                    <td><%= data[i].name %></td>
-                    <td><%= data[i].price %></td>
-                    <td><img src="<%=data[i].description%>" alt="" width="100px" height="100px"></td>
+                    <td><%= containerData[i].name %></td>
+                    <td><%= containerData[i].price %></td>
+                    <td><img src="<%=containerData[i].description%>" alt="" width="100px" height="100px"></td>
                 </div>
             </tr>
         <% } } %>
