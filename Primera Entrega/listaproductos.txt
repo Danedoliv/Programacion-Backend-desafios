@@ -1,0 +1,108 @@
+[
+    {
+        "nombre": "PEPSI Cola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 1
+    },
+    {
+        "nombre": "PEPSI Cola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 2
+    },
+    {
+        "nombre": "Coca Cola",
+        "descripcion": "Coca Cola",
+        "codigo": "COCA",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.coca-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 3
+    },
+    {
+        "nombre": "Coca Cola",
+        "descripcion": "Coca Cola",
+        "codigo": "COCA",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.coca-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 4
+    },
+    {
+        "nombre": "Coca Cola",
+        "descripcion": "Coca Cola",
+        "codigo": "COCA",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.coca-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 5
+    },
+    {
+        "administrador": true,
+        "nombre": "PEPSI awdawdawdawdawdawdawdawCola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "fecha": "2022-4-19",
+        "id": 6
+    },
+    {
+        "administrador": true,
+        "nombre": "PEPSI awdawdawdawdawdawdawdawCola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2020-05-05",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "undefined": "2022-4-19",
+        "id": 7
+    },
+    {
+        "administrador": true,
+        "nombre": "PEPSI awdawdawdawdawdawdawdawCola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 8
+    },
+    {
+        "administrador": true,
+        "nombre": "PEPSI awdawdawdawdawdawdawdawCola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "timestamp": "2022-4-19",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "id": 9
+    },
+    {
+        "administrador": true,
+        "nombre": "PEPSI awdawdawdawdawdawdawdawCola",
+        "descripcion": "PEPSI Cola",
+        "codigo": "PEPSI",
+        "precio": "$10",
+        "stock": "5",
+        "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+        "timestamp": "2022-4-19",
+        "id": 10
+    }
+]

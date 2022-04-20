@@ -1,0 +1,13 @@
+[
+  {
+    "nombre": "PEPSI Cola",
+    "descripcion": "PEPSI Cola",
+    "codigo": "PEPSI",
+    "precio": "$10",
+    "stock": 2,
+    "timestamp": "2022-4-19",
+    "foto": "https://www.PEPSI-cola.com/content/dam/journey/us/en/images/cc-logo-stacked-rgb.png",
+    "cantidad": 0,
+    "id": 1
+  }
+]
